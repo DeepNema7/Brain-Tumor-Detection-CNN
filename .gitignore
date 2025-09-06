@@ -1,0 +1,23 @@
+# Exclude large model files
+*.h5
+*.keras
+*.pkl
+
+# Exclude dataset folders
+data/
+dataset/
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+
+# Exclude IDE files
+.vscode/
+.idea/
+
+# Exclude Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude environment files
+.env
+.env.local
